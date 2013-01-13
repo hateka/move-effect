@@ -1,0 +1,53 @@
+<html>
+<head>
+<link rel="stylesheet" href="sample.css" type="text/css" />
+<script src="jquery-1.7.1.min.js"></script>
+<script src="s.js"></script>
+</head>
+<body>
+
+<div id="content1" class="wrap">
+<section>
+<hgroup>
+<h1>テスト</h1>
+</hgroup>
+<p>テストテストテストテストテストテストテストテストテストテストテストテストテストテスト
+テストテストテストテストテストテストテストテストテストテストテストテストテストテスト
+テストテストテストテストテストテストテストテストテストテストテストテストテストテスト</p>
+</section>
+</div>
+
+<div id="content2" class="wrap">
+<section>
+<hgroup>
+<h1>テスト</h1>
+</hgroup>
+<p>テストテストテストテストテストテストテストテストテストテストテストテストテストテスト
+テストテストテストテストテストテストテストテストテストテストテストテストテストテスト
+テストテストテストテストテストテストテストテストテストテストテストテストテストテスト</p>
+</section>
+</div>
+
+<div id="content3" class="wrap">
+<section>
+<hgroup>
+<h1>テスト</h1>
+</hgroup>
+<p>テストテストテストテストテストテストテストテストテストテストテストテストテストテスト
+テストテストテストテストテストテストテストテストテストテストテストテストテストテスト
+テストテストテストテストテストテストテストテストテストテストテストテストテストテスト</p>
+</section>
+</div>
+
+<script>
+
+$(function(){
+    var t = {content1:"どんど!!!!",content2:"www!!",content3:"どんど!!"};
+	$(".wrap").float({text:t},50);
+
+});
+
+</script>
+
+</body>
+</html>

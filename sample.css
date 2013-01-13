@@ -1,0 +1,28 @@
+h1{
+	margin:0;
+	padding:0;
+}
+
+.wrap{
+	width:500px;
+	min-height:20%;
+	-webkit-box-shadow: 0px 0px 10px #CCC;
+	-moz-box-shadow: 0px 0px 10px #CCC;
+	padding:15px 15px 15px 10px;
+	margin:115px;
+	line-height:20px;
+}
+
+.hoverIcon{
+	background-color:#0B0BC4;
+	position:absolute;
+	opacity:0.5;
+	color:#ffffff;
+	padding:5px;
+	font-size:20px;
+}
+
+.hoverIcon p{
+	margin:0;
+	padding:0;
+}
